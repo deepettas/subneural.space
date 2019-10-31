@@ -1,11 +1,7 @@
 <template>
   <Layout>
 
-
-    <h1>Hello, space!</h1>
-
-    <g-image src="~/assets/Logo_one.png" fit="contain"/>
-    
+    <h1>This is a space</h1>
 
   </Layout>
 </template>
@@ -22,4 +18,6 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
+
 </style>
+``

@@ -1,6 +1,8 @@
 <template>
   <div class="layout">
     <header class="header">
+      <g-image src="~/assets/Logo_one.png" fit="contain"  class="logo_image"/>
+
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
@@ -37,15 +39,20 @@ body {
 }
 
 .header {
-  display: flex;
+  margin: 0px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 49px;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+
   
 }
 
 .nav__link {
   margin-left: 20px;
+}
+.logo_image{
+  width:42px;
+  height: auto
 }
 </style>
