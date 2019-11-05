@@ -1,10 +1,10 @@
 <template>
-  <Layout>
+  <EntriesLayout>
 
       <div class="post-title">
         This is the title
       </div>
-  </Layout>
+  </EntriesLayout>
 </template>
 
 <script>
