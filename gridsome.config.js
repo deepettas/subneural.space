@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
+  siteName: 'Subneural Space',
   siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
 
   templates: {
@@ -42,4 +42,4 @@ module.exports = {
       ]
     }
   }
-}
+};

@@ -1,7 +1,8 @@
 <template>
 	<g-link class="logo" to="/">
+	<g-image alt="Logo image" class="logo__image" src="~/assets/images/Logo_one.png" />
 	  <span class="logo__text">
-	    &larr; {{ $static.metadata.siteName }}
+	    {{ $static.metadata.siteName }}
 	  </span>
 	</g-link>
 </template>
@@ -18,14 +19,15 @@ query {
 .logo {
 	text-decoration: none;
   color: var(--body-color)!important;
-  font-size: .9em;
-
-	&__image {
+  
+  font-size: .7em;
+  font-family: HelveticaNowText-Medium;
+  &__image {
 		vertical-align: middle;
 		border-radius: 99px;
-		height: 40px;
-		width: 40px;
-		margin-right: .5em;
+		height: 27px;
+		width: 27px;
+		margin-right: .9em;
 	}
 }
 </style>
