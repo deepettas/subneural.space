@@ -3,10 +3,10 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        My name 
       </div>
-      <div class="header__right">
-              <About/>
+      yo my layout
+      <div class="header__right">        
         <ToggleTheme />
       </div>
     </header>
@@ -25,14 +25,13 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
-import About from '~/components/About.vue'
+
 export default {
   props: {
     showLogo: { default: true }
   },
   components: {
     Logo,
-    About,
     ToggleTheme
   }
 }
@@ -43,15 +42,11 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--body-color)!important;
-
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
   top:0;
   z-index: 10;
 
-  font-size: .7em;
-  font-family: HelveticaNowText-Medium;
   &__left,
   &__right {
     display: flex;

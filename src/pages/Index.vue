@@ -18,6 +18,7 @@
       
     </div>
     <g-link class= "entries_link" to="/entries/">Enter the space</g-link>
+    <g-link class= "entries_link" to="/dionisispettas/"> Check me out</g-link>
 
   </Layout>
 </template>

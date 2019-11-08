@@ -19,8 +19,6 @@ query {
 .logo {
   text-decoration: none;
   color: var(--body-color)!important;
-  
-  font-size: .7em;
   font-family: HelveticaNowText-Medium;
   &__image {
 		vertical-align: middle;
