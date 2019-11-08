@@ -7,7 +7,17 @@
     <!-- <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div> -->
-    <g-link class="entries_link" :to="/Entries/">Enter the space</g-link>
+    <div class="frame_container_post_menu">
+      <p>
+        This is my space
+      </p>
+
+      <div class='side-menu'>
+        <Sidemenu/> 
+      </div>
+      
+    </div>
+    <g-link class= "entries_link" to="/entries/">Enter the space</g-link>
 
   </Layout>
 </template>
@@ -38,14 +48,34 @@ query {
 <script>
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
-
+import Sidemenu from '~/components/Sidemenu.vue'
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    Sidemenu
   },
   metaInfo: {
     title: 'Portal'
   }
 }
 </script>
+
+<style lang="scss">
+.entries_link{
+  text-decoration: none;
+  color: var(--body-color)!important;
+  width: 100%;
+  font-size: .7em;
+  font-family: HelveticaNowText-Medium;
+}
+.frame_container_post_menu{
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* for centering 3 blocks in the center */
+  justify-content: space-between;
+}
+
+</style>

@@ -9,7 +9,13 @@
     </div> -->
     
 
-    <g-link class="entries_link" :to="/entries/">Enter the space</g-link>
-
   </Layout>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Subneural.space'
+  }
+}
+</script>

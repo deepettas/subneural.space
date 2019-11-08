@@ -17,7 +17,7 @@ query {
 
 <style lang="scss">
 .logo {
-	text-decoration: none;
+  text-decoration: none;
   color: var(--body-color)!important;
   
   font-size: .7em;
